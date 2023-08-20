@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic JavaScript Projects</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <!-- use the font -->
+    <style>
+        /* Basic styling for the cards */
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: 'Roboto', sans-serif;  
+            background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+
+        }
+
+        .main {
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+
+        .header {
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 24px;
+        }
+
+        .header>a {
+            outline: none;
+            color: #333;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: 20px;
+            margin: 20px 0px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .card-grid {
+            margin: 0px 20px;
+            padding: 10px 20px;
+            color: #333;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            color: #333;
+            font-weight: 900;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+
+        .card-title {
+            text-transform: uppercase;
+            text-decoration: none;
+            font-weight: 400;
+            height: 120px;
+            display: flex;
+            margin: 20px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            background: #e0e0e0;
+            font-size: 20px;
+            cursor: pointer;
+            color: #333;
+            box-shadow: 20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+            transform: scale(0.9);
+            transition-duration: 300ms;
+        }
+
+        .card-title:hover {
+            transform: scale(1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <!-- Header -->
+        <div class="header">
+            <a href="#">Basic Sample Java Script Projects</a>
+        </div>
+
+        <!-- Card grid -->
+        <div class="card-grid">
+            <a class="card-title" href="./colorflipper/final/index.html" target="_blank">Color Flipper</a>
+
+            <a class="card-title" href="./countdowntimer/final/index.html" target="_blank">countdow timer</a>
+            <a class="card-title" href="./counter/final/index.html" target="_blank">Counter</a>
+            <a class="card-title" href="./products/final/index.html" target="_blank">products</a>
+            <a class="card-title" href="./counters/final/index.html" target="_blank">counters</a>
+            <a class="card-title" href="./questions/final/index.html" target="_blank">questions</a>
+            <a class="card-title" href="./reviews/final/index.html" target="_blank">reviews</a>
+            <a class="card-title" href="./user/final/index.html" target="_blank">user portfolio</a>
+            <a class="card-title" href="./video/final/index.html" target="_blank">Video player</a>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy; Baswanth</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
